@@ -35,12 +35,11 @@ namespace maaş_hesaplama
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.Ad_txt = new System.Windows.Forms.TextBox();
             this.Soyad_txt = new System.Windows.Forms.TextBox();
             this.Maas_txt = new System.Windows.Forms.TextBox();
             this.Msaati_txt = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.hesaplaBtn = new System.Windows.Forms.Button();
             this.gunduz_rbt = new System.Windows.Forms.RadioButton();
             this.Gece_rbt = new System.Windows.Forms.RadioButton();
             this.sonuc_lbl = new System.Windows.Forms.Label();
@@ -100,15 +99,6 @@ namespace maaş_hesaplama
             this.label6.TabIndex = 5;
             this.label6.Text = "Sonuç";
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(280, 293);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(16, 13);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "...";
-            // 
             // Ad_txt
             // 
             this.Ad_txt.Location = new System.Drawing.Point(196, 55);
@@ -137,15 +127,15 @@ namespace maaş_hesaplama
             this.Msaati_txt.Size = new System.Drawing.Size(100, 20);
             this.Msaati_txt.TabIndex = 11;
             // 
-            // button1
+            // hesaplaBtn
             // 
-            this.button1.Location = new System.Drawing.Point(119, 288);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.hesaplaBtn.Location = new System.Drawing.Point(119, 288);
+            this.hesaplaBtn.Name = "hesaplaBtn";
+            this.hesaplaBtn.Size = new System.Drawing.Size(75, 23);
+            this.hesaplaBtn.TabIndex = 12;
+            this.hesaplaBtn.Text = "Hesapla";
+            this.hesaplaBtn.UseVisualStyleBackColor = true;
+            this.hesaplaBtn.Click += new System.EventHandler(this.button1_Click);
             // 
             // gunduz_rbt
             // 
@@ -186,12 +176,11 @@ namespace maaş_hesaplama
             this.Controls.Add(this.sonuc_lbl);
             this.Controls.Add(this.Gece_rbt);
             this.Controls.Add(this.gunduz_rbt);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.hesaplaBtn);
             this.Controls.Add(this.Msaati_txt);
             this.Controls.Add(this.Maas_txt);
             this.Controls.Add(this.Soyad_txt);
             this.Controls.Add(this.Ad_txt);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -213,12 +202,11 @@ namespace maaş_hesaplama
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox Ad_txt;
         private System.Windows.Forms.TextBox Soyad_txt;
         private System.Windows.Forms.TextBox Maas_txt;
         private System.Windows.Forms.TextBox Msaati_txt;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button hesaplaBtn;
         private System.Windows.Forms.RadioButton gunduz_rbt;
         private System.Windows.Forms.RadioButton Gece_rbt;
         private System.Windows.Forms.Label sonuc_lbl;
